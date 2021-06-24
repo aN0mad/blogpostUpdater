@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "blogpostupdater"
+version = "1.0.0"
+description = "A program to reformat obsidian markdown images to work with github"
+authors = ["theRealFr13nd"]
+readme = "README.md"
+
+packages = [
+    { include = "blogupdater"}
+]
+
+[tool.poetry.scripts]
+blogupdater = 'blogupdater.blogUpdate:main'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
