@@ -39,7 +39,7 @@ optional arguments:
 ```
 <p></p>
 
-### Example 1 - Parse, upload and cleanup output directory
+### Example 1
 ```text
 root@system # blogupdater -u "https://github.com/theRealFr13nd/tempBlog" -p "Infrastructure Part 1" -f Blogpost.md
 [+] Creating project directory: Infrastructure Part 1
